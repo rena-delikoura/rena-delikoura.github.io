@@ -1,0 +1,116 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Δεληκούρα Αικατερίνη
+title: Δημόσιος Υπάλληλος 
+email: renadelikoyra@yahoo.gr
+website: https://rena-delikoura.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  rana-delikoura
+# facebook_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+
+# Additional icon links
+additional_links:
+- title: Print version
+  icon: far fa-file-pdf
+  url: https://github.com/elizabeth-spingou/elizabeth-spingou.github.io/blob/master/Spingou_Elisabeth_CV.pdf?raw=true
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Δημόσιος υπάλλήλος με εκτενή εμπειρια στο χώρο της ύγειας στον διοικητικό τομέα, ακαδημαϊηκη εκπαίδευση στην επιστήμη της ψυχολογίας και εντονη πολιτκή δράση και ενδιαφέρον για τα κοινά.
+
+content:
+
+  - title: Επαγγελματική Εμπειρία # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Γενικό Νοσοκομείο Ιωαννίνων  "Γ.ΧΑΤΖΗΚΩΣΤΑ"
+        sub_title: Διοικητικός Υπάλληλος 
+        caption: 2010 – 
+        description: |
+          Οικονομικό τμήμα
+      
+      - layout: left
+        title: Κέντρο Παιδικής Μέριμνας Θηλέων Ρόδου
+        sub_title: Διοικητικός Υπάλληλος 
+        caption: 2008 - 2010
+        description: | # this will include new lines to allow paragraphs
+          Γενικά διοικητικά καθηκόντα 
+
+      - layout: left
+        title: Γενικό Νοσοκομείο Ιωαννίνων  "Γ.ΧΑΤΖΗΚΩΣΤΑ"
+        sub_title: Διοικητικός Υπάλληλος 
+        caption: 2002 - 2008
+        description: | # this will include new lines to allow paragraphs
+          * Γραφείο κίνησης
+          * Οικονομικό τμήμα
+
+      - layout: left
+        title:  Περιφερειακό Γενικό Νοσοκομείο - Μαιευτήριο "Έλενα Βενιζέλου"
+        sub_title: 
+        caption: 1997 - 2002
+        description: | # this will include new lines to allow paragraphs
+          
+
+  - title: Πολιτική Δράση
+    layout: list
+    content:
+      - layout: left
+        title: 
+        caption: 
+        description: |
+          
+
+  - title: Εκπαίδευση # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Παν/μιο Ιωαννίνων
+        caption: 20018 - 2022
+        sub_title: Τμήμα Ψυχολογίας
+        description: | # this will include new lines to allow paragraphs
+          Στόχος του Προγράμματος Προπτυχιακών Σπουδών του Τμήματος Ψυχολογίας είναι η παροχή ολοκληρωμένης και υψηλής ποιότητας εκπαίδευσης στους/στις φοιτη-τές/τριες στο αντικείμενο της Ψυχολογίας.Το Προπτυχιακό Πρόγραμμα Σπουδών (Π.Π.Σ.) του Τμήματος Ψυχολογίας του Πανεπιστημίου Ιωαννίνων (Π.Ι.) είναι διάρκειας τεσσάρων ακαδημαϊκών ετών. Το Π.Π.Σ. του Τμήματος βρίσκεται σε εναρμόνιση με το Ευρωπαϊκό Σύστημα Μεταφοράς και Συσσώρευσης Πιστωτικών Μονάδων (ECTS
+
+      - layout: left
+        title:  Εξειδίκευση - Υπάλληλος οικονομικών υπηρεσιών του τομέα Οικονομίας και διοίκησης
+        caption: 2005 - 2006
+        sub_title: Πτυχιο β΄κυκλου
+        description: | # this will include new lines to allow paragraphs
+          Εξειδικευμένες γνώσεις και δεξιότητες με εφαρμογες  τις αρχές της επιστήμης του management, της οικονομίας και των δημοσίων σχέσεων με στοχο την στελέχωση των διοικητικών και οικονομικών υπηρεσιών, των μονάδων του ιδιωτικού ή δημοσίου τομέα.
+
+      - layout: left
+        title: Μέση Τεχνική Επαγγελματική Νοσηλευτική Σχολή Αθηνών
+        caption: 1994 - 1995
+        sub_title: Σχολή «Αμαλία Φλέμινγκ»
+        description: | 
+
+
+  
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
